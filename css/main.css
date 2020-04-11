@@ -139,6 +139,7 @@ header {
 #btn-artists {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 #btn-artists > a {
@@ -160,71 +161,55 @@ header {
 
 #footer {
   width: 100%;
-  border: 3px solid;
-
-  background-color: var(--main-bgc-light);
-  font-size: 1rem;
-  padding: 20px 40px;
   display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: 2fr 0.2fr 2fr;
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 100px;
 }
 
-.developer {
-  display: grid;
-  grid-template-rows: 2fr;
-  justify-items: center;
-  align-items: center;
-  grid-gap: 1rem;
-  row-gap: 1rem;
-}
-
-.developer h3 {
-  margin-top: 10px;
+#footer h3 {
   font-size: 1.2rem;
 }
 
-.developer img {
-  height: 80px;
-  width: 80px;
-}
-
-.developer img:hover {
-  transform: scale(1.1);
-}
-
-hr {
-  display: inline-block;
-  opacity: 0.3;
-  width: 5px;
-  height: 160px;
-  border: none;
-
-  background: var(--main-bgc-dark);
-}
-
-.promoter {
-  display: grid;
-  grid-template-rows: 2fr;
-  justify-items: center;
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  grid-gap: 1rem;
 }
 
-.promoter > .logo-dbr {
-  height: 80px;
-  width: auto;
-  grid-area: 1;
+.container-footer::after {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 5px;
+  margin-top: 10px;
+  background: #fb5;
 }
 
-.promoter img {
-  grid-area: content;
-  height: 80px;
-  width: 80px;
+.container-footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.promoter img:hover {
+.social .logo-dbr {
+  height: 30px;
+  width: 50px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.social img {
+  height: 40px;
+  width: 40px;
+  margin: 0.6rem 0.5rem;
+  cursor: pointer;
+}
+
+.social img:hover {
   transform: scale(1.1);
 }
