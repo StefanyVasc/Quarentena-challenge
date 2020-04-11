@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quarentena Challenge</title>
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style-swiper.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+  </head>
+  <body>
+    <header>
+      <article class="container">
+        <a href="#banner">
+          <img class="logo-header" src="assets/logo2.png" alt="" />
+        </a>
+        <nav>
+          <ul class="menu-links">
+            <a href="#faq"><li>Faq</li></a>
+            <a href="#gallery"><li>Galeria</li></a>
+            <a href="#"><li>Artistas</li></a>
+          </ul>
+        </nav>
+      </article>
+    </header>
+
+    <section id="banner"></section>
+
+    <section class="container space faq js-scroll" id="faq">
+      <h1 class="titulo">Faq</h1>
+      <dl class="faq-lista js-accordion">
+        <dt>O que é o Querentena Challenge? ⤵</dt>
+        <dd>
+          Bem, isso só depende de nós humanos! Se os respeitarmos e tomarmos
+          como nossa missão a preservação da vida desses animais, certamente
+          eles permanecerão o tanto quanto o homem permanecerá na terra.
+        </dd>
+        <dt>Por quem é promovido? ⤵</dt>
+        <dd>
+          Todos os animais são cheios de particularidades e é isso o que os
+          fazem realmente fantásticos.
+        </dd>
+        <dt>Como posso participar? ⤵</dt>
+        <dd>
+          Cada animail tem suas diferenças fisicas e comportamentais, porém
+          todos podem coexistir em uma mesmo lugar.
+        </dd>
+        <dt>Onde posso encontrar mais informações ⤵</dt>
+        <dd>
+          Mesmo morando em grandes cidades, é possível agir para evitar que os
+          animais entrem em risco de extinção. A qualquer suspeita não exite em
+          denunciar aos órgãos ambientais ou ao ibama.
+        </dd>
+      </dl>
+    </section>
+    <section>
+      <article class="container space" id="gallery">
+        <h1 class="titulo">Galeria</h1>
+
+        <p>
+          Confira abaixo um pouco do que foi produzido durante a Quarentena
+          Challenge.
+        </p>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img-1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-3.PNG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-5.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-6.PNG" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-7.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-8.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-9.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-10.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-11.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-12.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-13.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-14.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img-15.png" alt="" />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".swiper-container", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+              delay: 5000,
+              disableOnInteraction: false,
+            },
+            /* breakpoints: {
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+              },
+            }, */
+          });
+        </script>
+
+        <section class="container space" id="btn-artists">
+          <a href="galeria.html">Ver mais artes</a>
+        </section>
+      </article>
+    </section>
+    <footer class="container space" id="footer">
+      <section class="developer">
+        <h3>Made with 💕 by Stefany Sá</h3>
+        <div>
+          <a href="https://github.com/StefanyVasc">
+            <img src="assets/github-logo.png" alt="logo github" />
+          </a>
+          <a href="https://twitter.com/stefany_vasc">
+            <img src="assets/twitter-logo.png" alt="logo twitter" />
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section class="promoter">
+        <img class="logo-dbr" src="assets/dbr-logo.png" alt="logo Twitch" />
+
+        <div>
+          <a href="https://www.twitch.tv/player_dbr">
+            <img src="assets/twitch-logo.png" alt="logo Twitch" />
+          </a>
+          <a href="https://twitter.com/player_dbr">
+            <img src="assets/twitter-logo.png" alt="logo twitter" />
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
