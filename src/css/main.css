@@ -77,7 +77,10 @@ header {
   height: 600px;
   background: url("/src/assets/banner.png");
   background-size: cover;
+  background-origin: border-box;
+  background-repeat: no-repeat;
   background-position: center;
+  background-color: #1a1a1a;
 }
 
 .titulo {
