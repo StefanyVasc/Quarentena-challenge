@@ -9,11 +9,11 @@
   --font-family-primary: "Prompt", sans-serif;
 }
 
-html,
+/* html,
 body {
   position: relative;
   height: 100%;
-}
+} */
 body {
   background-color: var(--main-bgc-light);
   font-family: var(--font-family-primary);
@@ -32,7 +32,7 @@ header {
   background-color: var(--main-bgc-light);
   font-size: 1.25rem;
   padding: 20px 0;
-  position: fixed;
+  /* position: fixed; */
   border: 3px solid;
   z-index: 2;
 }
@@ -77,3 +77,41 @@ header {
   color: var(--main-bgc-dark);
   transition: 0.5s ease-in;
 } */
+
+main {
+  color: var(--color-primary-light);
+  margin-top: 100px;
+}
+
+main h1 {
+  font-size: 1.8rem;
+  margin-right: 2rem;
+}
+
+main h3 {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  opacity: 0.5;
+
+  transition: all 0.5 ease-in;
+}
+main h3:hover {
+  opacity: 1;
+}
+
+main h3 a {
+  background-color: var(--color-contrast-light);
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  color: var(--main-bgc-dark);
+  transition: all 0.5 ease-in 0.3;
+}
+main h3 a:hover {
+  background: var(--main-bgc-dark);
+  color: var(--color-contrast-light);
+}
+
+main h3 a::after {
+  content: " ↵";
+  margin-left: 10px;
+}
