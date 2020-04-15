@@ -1,0 +1,79 @@
+:root {
+  --main-bgc-light: #e5ece9;
+  --main-bgc-dark: #343434;
+  --bgc-section-light: #f7f7f7;
+  --color-contrast-light: #ffab00;
+  --color-contrast-dark: #fcdb00;
+  --color-primary-light: #515151;
+  --color-primary-dark: #f4f4f6;
+  --font-family-primary: "Prompt", sans-serif;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background-color: var(--main-bgc-light);
+  font-family: var(--font-family-primary);
+  color: var(--color-primary-light);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-color: var(--main-bgc-light);
+  font-size: 1.25rem;
+  padding: 20px 0;
+  position: fixed;
+  border: 3px solid;
+  z-index: 2;
+}
+
+.container {
+  width: 994px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space {
+  padding: 70px 0 40px 0;
+}
+
+.container .logo-header {
+  cursor: pointer;
+}
+
+.menu-links a li {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background: var(--main-bgc-dark);
+  border-radius: 0.8rem;
+  color: var(--color-contrast-light);
+  font-weight: 500;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.menu-links a li:hover {
+  background-color: var(--color-contrast-light);
+  color: var(--main-bgc-dark);
+  transition: 0.5s ease-in;
+}
+
+/* .menu-links .active a li {
+  background-color: var(--color-contrast-light);
+  color: var(--main-bgc-dark);
+  transition: 0.5s ease-in;
+} */
