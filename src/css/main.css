@@ -117,6 +117,12 @@ header {
   margin-left: 30px;
 }
 
+.faq-lista dd img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
 #gallery {
   display: flex;
   flex-direction: column;
@@ -147,7 +153,6 @@ header {
 
 #btn-artists > a {
   background-color: var(--color-contrast-light);
-  border: 0.1rem solid var(--main-bgc-dark);
   color: var(--main-bgc-dark);
   font-size: 1.2rem;
   font-weight: 500;
