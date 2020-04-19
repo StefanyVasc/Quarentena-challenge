@@ -3,7 +3,6 @@ var swiper = new Swiper(".swiper-container", {
   spaceBetween: 30,
   slidesPerGroup: 3,
   loop: true,
-
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -16,22 +15,30 @@ var swiper = new Swiper(".swiper-container", {
     delay: 5000,
     disableOnInteraction: false,
   },
-  /* breakpoints: {
+  breakpoints: {
     400: {
-      slidesPerView: 1,
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
+    500: {
+      slidesPerView: 2,
       spaceBetween: 15,
     },
     640: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
     768: {
       slidesPerView: 3,
       spaceBetween: 25,
     },
-    1024: {
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 25,
+    },
+    1062: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
-  }, */
+  },
 });
