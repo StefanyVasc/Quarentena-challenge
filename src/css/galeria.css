@@ -20,6 +20,8 @@ body {
   color: var(--color-primary-light);
   margin: 0;
   padding: 0;
+  height: 100%;
+  position: relative;
 }
 
 a {
@@ -29,10 +31,11 @@ a {
 
 header {
   width: 100%;
+  top: 0;
   background-color: var(--main-bgc-light);
   font-size: 1.25rem;
   padding: 20px 0;
-  /* position: fixed; */
+  position: fixed;
   border: 3px solid;
   z-index: 2;
 }
@@ -70,6 +73,11 @@ header {
   background-color: var(--color-contrast-light);
   color: var(--main-bgc-dark);
   transition: 0.5s ease-in;
+}
+
+#here {
+  background-color: var(--color-contrast-light);
+  color: var(--main-bgc-dark);
 }
 
 main {
@@ -110,7 +118,8 @@ main h3 a::after {
 
 .container-intro {
   display: grid;
-  margin: 50px 100px;
+  margin: 50px 150px;
+  padding-top: 100px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
@@ -119,6 +128,7 @@ main h3 a::after {
 
 .container {
   max-width: 100%;
+
   margin: 0 auto;
   padding: 0 2%;
 }
@@ -131,8 +141,8 @@ main h3 a::after {
 }
 
 .item-galeria {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   margin: 10px;
@@ -143,7 +153,6 @@ main h3 a::after {
   width: 100%;
   height: 100%;
   cursor: pointer;
-  /*  background-color: ; */
   border-radius: 0.2rem;
 }
 
