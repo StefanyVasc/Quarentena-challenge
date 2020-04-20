@@ -280,15 +280,16 @@ header {
 
 @media screen and (max-width: 1062px) {
   .faq {
-    margin: 0 6%;
+    margin: 0 8%;
   }
   .faq dd {
     width: 80%;
     margin-bottom: 5vh;
   }
-  #gallery h1 {
+  #gallery .titulo {
     margin: 0 6%;
   }
+
   #gallery p {
     margin: 3% 6%;
   }
@@ -341,6 +342,9 @@ header {
   #gallery {
     padding-top: 0;
   }
+  #gallery p {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -352,6 +356,17 @@ header {
   #footer {
     padding-top: 0;
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .faq dt {
+    font-size: 1.2rem;
+  }
+  .faq dd {
+    width: 70%;
+    margin-bottom: 10vh;
+    font-size: 1rem;
   }
 }
 

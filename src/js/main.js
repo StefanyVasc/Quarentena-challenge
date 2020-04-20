@@ -1,6 +1,7 @@
 function initAccordion() {
   const accordionList = document.querySelectorAll(".js-accordion dt");
   const classActive = "active";
+
   if (accordionList.length) {
     accordionList[0].classList.add(classActive);
     accordionList[0].nextElementSibling.classList.add(classActive);
