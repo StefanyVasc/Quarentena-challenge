@@ -1,8 +1,11 @@
 var swiper = new Swiper(".swiper-container", {
+  setWrapperSize: true,
+  updateOnWindowResize: true,
   slidesPerView: 3,
+
   spaceBetween: 30,
   slidesPerGroup: 3,
-  loop: true,
+  /* loop: true, */
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

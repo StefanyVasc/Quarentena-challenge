@@ -33,7 +33,6 @@ header {
   font-size: 1.25rem;
   padding: 20px 0;
   position: fixed;
-  border: 3px solid;
   z-index: 2;
 }
 
@@ -47,7 +46,7 @@ header {
 }
 
 .space {
-  padding: 70px 0 40px 0;
+  padding: 50px 0 0 0;
 }
 
 .container .logo-header {
@@ -85,11 +84,23 @@ header {
 
 .titulo {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.4rem;
   text-transform: uppercase;
   margin-right: 70px;
   padding: 50px 0 0 0;
   color: var(--main-bgc-dark);
+}
+
+#faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: initial;
+  margin-bottom: 1rem;
+}
+
+.faq-lista {
+  margin-left: 5%;
 }
 
 .faq-lista dt {
@@ -132,7 +143,7 @@ header {
 }
 
 #gallery p {
-  margin: 2rem 2rem;
+  margin: 1rem 5%;
   font-size: 1.4rem;
 }
 
@@ -345,28 +356,88 @@ header {
   #gallery p {
     font-size: 1.1rem;
   }
+  #footer {
+    font-size: 1rem;
+  }
+  .container-footer::after {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 5px;
+    margin-top: 10px;
+    background: #fb5;
+  }
+
+  .container-footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social .logo-dbr {
+    height: 20px;
+    width: 40px;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .social img {
+    height: 30px;
+    width: 30px;
+    margin: 0.6rem 0.5rem;
+    cursor: pointer;
+  }
+  .faq-lista dd img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 825px) {
+  header {
+    font-size: 1.1rem;
+  }
+  .menu-links a li {
+    letter-spacing: 0.1rem;
+  }
   #banner {
     width: 100%;
     height: 40vh;
   }
 
   #footer {
-    padding-top: 0;
+    margin-top: 100px;
     padding-bottom: 20px;
+  }
+  #btn-artists > a {
+    background-color: var(--color-contrast-light);
+    color: var(--main-bgc-dark);
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    padding: 1.28rem;
+    border-radius: 0.8rem;
   }
 }
 
 @media screen and (max-width: 700px) {
   .faq dt {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .faq dd {
     width: 70%;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     font-size: 1rem;
+  }
+  #gallery p {
+    font-size: 1rem;
+  }
+  .titulo {
+    font-size: 2rem;
   }
 }
 
@@ -375,5 +446,57 @@ header {
     width: 100%;
     height: 30vh;
     background-size: cover;
+  }
+  .titulo {
+    font-size: 1.8rem;
+  }
+  #btn-artists > a {
+    background-color: var(--color-contrast-light);
+    color: var(--main-bgc-dark);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+  }
+  #footer h3 {
+    font-size: 1rem;
+  }
+  .container-footer::after {
+    content: "";
+    display: inline-block;
+    width: 220px;
+    height: 5px;
+    margin-top: 10px;
+    background: #fb5;
+  }
+
+  .container-footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social .logo-dbr {
+    height: 10px;
+    width: 20px;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .social img {
+    height: 20px;
+    width: 20px;
+    margin: 0.6rem 0.5rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  #banner {
+    display: none;
   }
 }
