@@ -9,17 +9,18 @@
   --font-family-primary: "Prompt", sans-serif;
 }
 
-html,
+/* html,
 body {
   position: relative;
   height: 100%;
-}
+} */
 body {
   background-color: var(--main-bgc-light);
   font-family: var(--font-family-primary);
   color: var(--color-primary-light);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 a {
