@@ -1,3 +1,15 @@
+const mobile = document.querySelector("#mobile");
+const links = document.querySelector("#links");
+const header = document.querySelector("header ");
+const faq = document.querySelector("#faq");
+
+mobile.addEventListener("click", function () {
+  links.classList.toggle("active");
+  header.classList.toggle("active");
+  mobile.classList.toggle("active");
+  faq.classList.toggle("link-mobile");
+});
+
 function initAccordion() {
   const accordionList = document.querySelectorAll(".js-accordion dt");
   const classActive = "active";
