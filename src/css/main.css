@@ -9,11 +9,6 @@
   --font-family-primary: "Prompt", sans-serif;
 }
 
-/* html,
-body {
-  position: relative;
-  height: 100%;
-} */
 body {
   background-color: var(--main-bgc-light);
   font-family: var(--font-family-primary);

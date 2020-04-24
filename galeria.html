@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QC || Galeria</title>
-    <link rel="stylesheet" href="src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.css"
+    />
 
+    <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/galeria.css" />
-    <link rel="stylesheet" href="src/css/style-swiper.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <script src="src/js/assets.js"></script>
     <script defer src="src/js/galeria.js"></script>
   </head>
@@ -46,7 +51,9 @@
       </section>
     </main>
     <section class="container">
-      <div class="galeria js-scroll"></div>
+      <div class="galeria js-scroll">
+        <a href="src/assets/banner.png" rel="lightbox" title="exemplo"></a>
+      </div>
     </section>
 
     <footer class="space js-scroll" id="footer">
@@ -80,6 +87,9 @@
         <h3>Made with 💕 by Stefany Sá</h3>
       </section>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox.js"></script>
 
     <script src="src/js/main.js"></script>
   </body>
