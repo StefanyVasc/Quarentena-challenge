@@ -115,20 +115,14 @@ main h3 a::after {
 }
 
 .container-intro {
+  width: 994px;
   display: grid;
-  margin: 50px 150px;
+  margin: 50px 0px;
   padding-top: 100px;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
   grid-gap: 30px;
-}
-
-.container {
-  max-width: 100%;
-
-  margin: 0 auto;
-  padding: 0 2%;
 }
 
 /* lightbox */
@@ -223,7 +217,13 @@ main h3 a::after {
 }
 
 /* responsivo */
+
 @media screen and (max-width: 1000px) {
+  .container-intro {
+    align-self: center;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
   .container {
     width: 100%;
   }
@@ -234,8 +234,25 @@ main h3 a::after {
   .menu-links {
     margin: 0 40px;
   }
+  #footer {
+    padding-top: 250px;
+    padding-bottom: 10px;
+  }
 }
+
 @media screen and (max-width: 893px) {
+  .container-intro {
+    align-self: center;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  .container-intro h1 {
+    font-size: 1.5rem;
+  }
+  .container-intro h3 {
+    font-size: 0.9rem;
+  }
   #footer {
     font-size: 1rem;
   }
@@ -272,18 +289,43 @@ main h3 a::after {
   }
 }
 
+@media screen and (max-width: 825px) {
+  header {
+    font-size: 1.1rem;
+  }
+  .menu-links a li {
+    letter-spacing: 0.1rem;
+  }
+  #footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container-intro h3 {
+    line-height: 1.5rem;
+  }
+  #footer h3 {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 677px) {
+  .container-intro h1 {
+    font-size: 1.2rem;
+  }
   #mobile {
     display: block;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0 0.2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.3rem;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
     background: var(--main-bgc-dark);
-    border-radius: 0.8rem;
     color: var(--color-contrast-light);
-    font-weight: 500;
     list-style: none;
   }
 
@@ -341,5 +383,95 @@ main h3 a::after {
     width: 20px;
     margin: 0.6rem 0.5rem;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container-intro h1 {
+    font-size: 1rem;
+  }
+  .container-intro h3 {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  #footer h3 {
+    font-size: 0.7rem;
+  }
+  .container-footer::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    margin-top: 10px;
+    background: #fb5;
+  }
+
+  .container-footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social .logo-dbr {
+    height: 10px;
+    width: 20px;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+
+  .social img {
+    height: 20px;
+    width: 20px;
+    margin: 0.6rem 0.5rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .logo-header {
+    width: 110px;
+  }
+  .menu-links .active {
+    font-size: 0.7rem;
+  }
+  #footer {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .container-intro {
+    margin: 10px 40px 40px 40px;
+  }
+
+  #footer {
+    padding-top: 150px;
+    font-size: 0.6rem;
+    justify-items: center;
+    padding-bottom: 0;
+  }
+  #footer .container-footer {
+    width: 100px;
+  }
+  #footer h3 {
+    text-align: center;
+  }
+  .container-footer::after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-intro {
+    margin: 10px 20px 40px 20px;
+  }
+  .container-intro h3 {
+    line-height: 1rem;
+  }
+  #footer.container-footer {
+    width: 100px;
   }
 }
