@@ -86,7 +86,7 @@ let imagensJSON = {
     {
       data: "gauss - dia X",
       href:
-        "https://res.cloudinary.com/stevasc/image/upload/v1586924500/galeria/swiper/img-21_sebpsz.pngpng",
+        "https://res.cloudinary.com/stevasc/image/upload/v1586924500/galeria/swiper/img-21_sebpsz.png",
       titulo: "teste full",
       descricao: "imagen de teste fullscreen",
       url:
