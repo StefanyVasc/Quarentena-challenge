@@ -7,45 +7,184 @@
     <link rel="stylesheet" href="src/css/reset.css" />
 
     <link rel="stylesheet" href="src/css/artistas.css" />
-    <link rel="stylesheet" href="src/css/style-swiper.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <script src="src/js/assets.js"></script>
     <script defer src="src/js/artistas.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
   </head>
   <body>
     <header>
-      <article class="container-header">
-        <a href="index.html">
+      <article class="container">
+        <a href="/index.html" s>
           <img class="logo-header" src="src/assets/logo2.png" alt="" />
         </a>
-        <nav>
-          <ul class="menu-links">
-            <a href="index.html#faq"><li>Faq</li></a>
-            <a href="galeria.html"><li>Galeria</li></a>
-            <a href="#"><li id="here">Artistas</li></a>
+        <nav class="menu-links">
+          <div id="mobile">
+            <img src="src/assets/menu.png" alt="" />
+          </div>
+          <ul id="links">
+            <a href="/index.html#banner"><li>Home</li></a>
+            <a href="/galeria.html"><li>Galeria</li></a>
+            <a href="#" id="here"><li>Artistas</li></a>
           </ul>
         </nav>
       </article>
     </header>
-    <main>
+    <main class="container">
       <section class="container-intro">
-        <h1>
-          Gostou de um artista em especial? Aqui você escontrará todos os
-          artistas e suas criações.
-        </h1>
-        <h3>
-          As artes estão divididas por dia, caso queira ver todas as artes de um
-          artista especifico <br />
-          <a href="#">clique aqui</a>
-        </h3>
+        <div class="artistas">
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>T4G0</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>reimonkey</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>JennyhTwT</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>ninja029</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>lawric_</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>nuts_arts</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>DaniGod03</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>limasyfy</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>gauss2</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>Majorir</p>
+          </div>
+          <div class="artistas-info">
+            <img src="src/assets/click.png" alt="" />
+            <p>EuliDraws</p>
+          </div>
+        </div>
+
+        <div class="desenhos">
+          <!-- <div class="slick-wrapper">
+            <div class="slider-5">
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924505/galeria/swiper/img-28_i2lepx.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924505/galeria/swiper/img-30_to30rx.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924503/galeria/swiper/img-29_thwp8v.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924502/galeria/swiper/img-27_vrxfct.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924501/galeria/swiper/img-26_pstlbd.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924501/galeria/swiper/img-25_uhzbel.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924501/galeria/swiper/img-24_tkxpss.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924501/galeria/swiper/img-23_d0sqlp.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924501/galeria/swiper/img-22_s8kejb.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/v1586924500/galeria/swiper/img-21_sebpsz.png"
+              />
+            </div>
+            <div class="carousel-5">
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924505/galeria/swiper/img-28_i2lepx.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924505/galeria/swiper/img-30_to30rx.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924503/galeria/swiper/img-29_thwp8v.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924502/galeria/swiper/img-27_vrxfct.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924501/galeria/swiper/img-26_pstlbd.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924501/galeria/swiper/img-25_uhzbel.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924501/galeria/swiper/img-24_tkxpss.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924501/galeria/swiper/img-23_d0sqlp.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924501/galeria/swiper/img-22_s8kejb.png"
+              />
+              <img
+                class="slide-image"
+                src="https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1586924500/galeria/swiper/img-21_sebpsz.png"
+              />
+            </div>
+          </div>
+        </div> -->
       </section>
     </main>
-    <section class="container">
-      <div class="galeria js-scroll"></div>
-    </section>
 
     <footer class="space js-scroll" id="footer">
       <section class="container-footer">
@@ -78,6 +217,32 @@
         <h3>Made with 💕 by Stefany Sá</h3>
       </section>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".slider-5").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".carousel-5",
+        });
+        $(".carousel-5").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: ".slider-5",
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true,
+        });
+      });
+    </script>
 
     <script src="src/js/main.js"></script>
   </body>
