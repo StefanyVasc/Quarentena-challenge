@@ -51,7 +51,7 @@ header {
 #mobile {
   display: none;
 }
-.containerr .logo-header {
+.container .logo-header {
   cursor: pointer;
 }
 
@@ -79,35 +79,27 @@ header {
 }
 
 .container-intro {
-  margin-top: 100px;
+  width: 994px;
+  padding-top: 100px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .container-intro {
-  width: 994px;
-  display: grid;
-  margin: 50px 0px;
-  padding-top: 100px;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-gap: 30px;
-} */
-
 .artistas {
-  max-width: 390px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: initial;
+  justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
 
 .artistas-info {
   cursor: pointer;
+  width: 120px;
+  height: 50px;
   background: var(--color-contrast-light);
   border-radius: 0.8rem;
   padding: 5px;
@@ -115,7 +107,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  margin: 20px 20px;
+  margin: 10px 10px;
   color: var(--main-bgc-dark);
   font-weight: bold;
 }
@@ -127,14 +119,39 @@ header {
 }
 
 .artistas-info > img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-right: 5px;
 }
 
-.desenhos {
-  max-width: 500px;
+/* lightbox */
+.gallery {
+  margin: 10px 20px;
 }
+
+.gallery img {
+  transition: 0.5s all ease-in-out;
+  border-radius: 8px;
+}
+
+.gallery img:hover {
+  box-shadow: 0 0 30px black;
+  transform: scale(1.05);
+  transition: 0.8s;
+  box-shadow: 0 0 30px black;
+  transform: scale(1.05);
+  transition: 0.8s;
+}
+
+/* finish lightbox */
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 #footer {
   width: 100%;
   display: grid;

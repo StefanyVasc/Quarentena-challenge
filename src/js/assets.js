@@ -2,7 +2,6 @@ let imagensJSON = {
   imagens: [
     {
       data: "gauss - dia X",
-
       lightbox: "mygallery",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1586924505/galeria/swiper/img-28_i2lepx.png",

@@ -1,129 +1,35 @@
-let artistasJSON = {
-  artistas: [
-    {
-      artista: "tago",
-      dias: {
-        dia1: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia2: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia3: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia4: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia5: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia6: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia7: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia8: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia9: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia10: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia11: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia12: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia13: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia14: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia15: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia16: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia17: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia18: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia19: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia20: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia21: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia22: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia23: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia24: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia25: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia26: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia27: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia28: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia29: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-        dia30: {
-          tema: "exemplo",
-          url: "exemplo",
-        },
-      },
-    },
-  ],
-};
+const galeriaParticipantes = document.querySelector(`.galeria`);
+
+function popularGaleriaParticipantes() {
+  for (let imagem in imagensJSON.imagens) {
+    const itemImagem = document.createElement(`div`);
+    itemImagem.className = `item-galeria`;
+    itemImagem.className = `gallery`;
+
+    const ancora = document.createElement(`a`);
+    ancora.data = imagensJSON.imagens[imagem].data;
+    ancora.href = imagensJSON.imagens[imagem].href;
+    ancora.lightbox = imagensJSON.imagens[imagem].lightbox;
+    ancora.hasAttribute("href", ancora.href);
+    ancora.setAttribute("data-lightbox", ancora.lightbox);
+    ancora.setAttribute("data-title", ancora.data);
+
+    const img = document.createElement(`img`);
+    img.src = imagensJSON.imagens[imagem].url;
+    img.alt = imagensJSON.imagens[imagem].descricao;
+    img.title = imagensJSON.imagens[imagem].titulo;
+    galeriaParticipantes.appendChild(itemImagem);
+    itemImagem.appendChild(ancora);
+    ancora.appendChild(img);
+  }
+}
+
+const btnArtist = document.querySelectorAll(`.artistas-info`);
+
+btnArtist.forEach((artista) => {
+  artista.addEventListener("click", function () {
+    const artistaClicked = artista.children[1].textContent;
+    console.log("clicou", artistaClicked);
+    popularGaleriaParticipantes();
+  });
+});
