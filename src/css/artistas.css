@@ -413,11 +413,11 @@ label:active:after {
     list-style: none;
   }
 
-  .menu-links ul {
+  .menu-links #links {
     display: none;
   }
 
-  .menu-links .active {
+  #links.active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -425,12 +425,14 @@ label:active:after {
     transition: all 1s ease-in-out;
   }
 
-  header {
-    background-color: var(--main-bgc-light);
+  #links .toogle {
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
   }
 
-  header.active {
-    background-color: var(--main-bgc-dark);
+  .toggle label {
+    left: -45px;
   }
 
   #footer h3 {

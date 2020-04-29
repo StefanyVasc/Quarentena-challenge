@@ -529,11 +529,15 @@ label:active:after {
     list-style: none;
   }
 
-  .menu-links ul {
+  /* header.active .menu-links {
+    background: var(--main-bgc-light);
+  } */
+
+  .menu-links #links {
     display: none;
   }
 
-  .menu-links .active {
+  #links.active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -541,13 +545,16 @@ label:active:after {
     transition: all 1s ease-in-out;
   }
 
-  header {
-    background-color: var(--main-bgc-light);
+  #links .toogle {
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
   }
 
-  header.active {
-    background-color: var(--main-bgc-dark);
+  .toggle label {
+    left: -45px;
   }
+
   .link-mobile {
     padding-top: 170px;
   }
