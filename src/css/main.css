@@ -364,6 +364,10 @@ label:active:after {
 }
 
 @media screen and (max-width: 1062px) {
+  #banner {
+    width: 100%;
+    height: 40vh;
+  }
   .faq {
     margin: 0 8%;
   }

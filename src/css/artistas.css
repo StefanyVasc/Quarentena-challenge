@@ -301,14 +301,24 @@ label:active:after {
   color: #000;
 }
 /* responsivo */
+@media screen and (max-width: 1210px) {
+  .container {
+    max-width: 100%;
+  }
+}
 
 @media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
   .container-intro {
     align-self: center;
     margin-right: 40px;
     margin-left: 40px;
+    max-width: 100%;
   }
-  .container {
+
+  #artistas {
     width: 100%;
   }
 
