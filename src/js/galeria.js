@@ -25,3 +25,19 @@ function popularGaleria() {
 }
 
 popularGaleria();
+
+function menuMobile() {
+  const mobile = document.querySelector("#mobile");
+  const header = document.querySelector("header");
+  const introGallery = document.querySelector(".container-intro");
+
+  mobile.addEventListener("click", () => {
+    if (header.classList.contains("active")) {
+      introGallery.classList.add("link-mobile");
+    } else {
+      introGallery.classList.remove("link-mobile");
+    }
+  });
+}
+
+menuMobile();

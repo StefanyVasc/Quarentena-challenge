@@ -49,6 +49,9 @@ header {
 
   z-index: 2;
 }
+header.active {
+  transition: all 0.3s;
+}
 
 /* inicio dark */
 
@@ -142,6 +145,11 @@ label:active:after {
   background-color: var(--color-contrast-light);
   color: var(--main-bgc-dark);
   transition: 0.5s ease-in;
+}
+
+.container-intro.link-mobile {
+  padding-top: 200px;
+  transition: all 0.3s;
 }
 
 #here {
