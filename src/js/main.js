@@ -3,6 +3,7 @@ function startHamburguerMenu() {
   const links = document.querySelector("#links");
   const header = document.querySelector("header ");
   const faq = document.querySelector("#faq");
+  const introArtistas = document.querySelector(".container-intro");
 
   mobile.addEventListener("click", function () {
     links.classList.toggle("active");
