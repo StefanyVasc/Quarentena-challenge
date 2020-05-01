@@ -1,35 +1,91 @@
-const galeriaParticipantes = document.querySelector(`.galeria`);
+const tago = document.getElementById("tago");
+const reimonkey = document.getElementById("reimonkey");
+const jennyh = document.getElementById("jennyh");
+const ninja = document.getElementById("ninja");
+const gauss = document.getElementById("gauss");
+const majorir = document.getElementById("majorir");
+const euli = document.getElementById("euli");
 
-function popularGaleriaParticipantes() {
-  for (let imagem in imagensJSON.imagens) {
-    const itemImagem = document.createElement(`div`);
-    itemImagem.className = `item-galeria`;
-    itemImagem.className = `gallery`;
+console.log(tago.classList);
 
-    const ancora = document.createElement(`a`);
-    ancora.data = imagensJSON.imagens[imagem].data;
-    ancora.href = imagensJSON.imagens[imagem].href;
-    ancora.lightbox = imagensJSON.imagens[imagem].lightbox;
-    ancora.hasAttribute("href", ancora.href);
-    ancora.setAttribute("data-lightbox", ancora.lightbox);
-    ancora.setAttribute("data-title", ancora.data);
+function galleryByArtist() {
+  const btnArtist = document.querySelectorAll(`.artistas-info`);
+  const artistasGalery = document.querySelectorAll(`.artista-gallery`);
 
-    const img = document.createElement(`img`);
-    img.src = imagensJSON.imagens[imagem].url;
-    img.alt = imagensJSON.imagens[imagem].descricao;
-    img.title = imagensJSON.imagens[imagem].titulo;
-    galeriaParticipantes.appendChild(itemImagem);
-    itemImagem.appendChild(ancora);
-    ancora.appendChild(img);
+  console.log(artistasGalery);
+
+  function btnClicked(index) {
+    btnArtist.forEach((artista) => {
+      artista.classList.remove("clicado");
+    });
+    btnArtist[index].classList.add("clicado");
   }
+
+  btnArtist.forEach((artista, index) => {
+    artista.addEventListener("click", () => {
+      const btnPessoa = artista.children[1].innerText;
+
+      btnClicked(index);
+      console.log(index);
+      if (index === 0) {
+        tago.classList.add("ativo");
+      } else {
+        tago.classList.remove("ativo");
+      }
+      if (index === 1) {
+        reimonkey.classList.add("ativo");
+      } else {
+        reimonkey.classList.remove("ativo");
+      }
+      if (index === 2) {
+        jennyh.classList.add("ativo");
+      } else {
+        jennyh.classList.remove("ativo");
+      }
+      if (index === 3) {
+        ninja.classList.add("ativo");
+      } else {
+        ninja.classList.remove("ativo");
+      }
+      if (index === 4) {
+        nuts.classList.add("ativo");
+      } else {
+        nuts.classList.remove("ativo");
+      }
+      if (index === 5) {
+        gauss.classList.add("ativo");
+      } else {
+        gauss.classList.remove("ativo");
+      }
+      if (index === 6) {
+        majorir.classList.add("ativo");
+      } else {
+        majorir.classList.remove("ativo");
+      }
+      if (index === 7) {
+        euli.classList.add("ativo");
+      } else {
+        euli.classList.remove("ativo");
+      }
+    });
+  });
 }
 
-const btnArtist = document.querySelectorAll(`.artistas-info`);
+galleryByArtist();
 
-btnArtist.forEach((artista) => {
-  artista.addEventListener("click", function () {
-    const artistaClicked = artista.children[1].textContent;
-    console.log("clicou", artistaClicked);
-    popularGaleriaParticipantes();
+function MenuMobileLink() {
+  const mobile = document.querySelector("#mobile");
+  const header = document.querySelector("header");
+  const introArtistas = document.querySelector(".artistas");
+
+  mobile.addEventListener("click", () => {
+    if (header.classList.contains("active")) {
+      introArtistas.classList.add("link-mobile");
+    } else {
+      introArtistas.classList.remove("link-mobile");
+    }
   });
-});
+}
+MenuMobileLink();
+
+/* if() */
