@@ -1891,7 +1891,7 @@ let imagensJSON = {
       titulo: "Dia 27 - Tema: Dragão",
       descricao: "Tema: Dragão",
       url:
-        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day27_wzie1e.pngg",
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day27_wzie1e.png",
     },
     {
       data: "EuliDraws",
