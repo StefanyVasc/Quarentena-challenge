@@ -10,6 +10,16 @@ let imagensJSON = {
       descricao: "Tema: Favela",
     },
     {
+      data: "Nuts",
+      lightbox: "mygallery",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day01_u6wp3u.png",
+      titulo: "Dia 1 - Tema: Favela ",
+      descricao: "Tema: Favela",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day01_u6wp3u.png",
+    },
+    {
       data: "EuliDraws",
       lightbox: "mygallery",
       href:
@@ -72,6 +82,16 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298443/galeria/tago/Day02_nebxrc.png",
       titulo: "Dia 2 - Tema: Assassino",
       descricao: "Tema: Assassino",
+    },
+    {
+      data: "Nuts",
+      lightbox: "mygallery",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day02_bzsump.png",
+      titulo: "Dia 2 - Tema: Assassino ",
+      descricao: "Tema: Assassino",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day02_bzsump.png",
     },
     {
       data: "EuliDraws",
@@ -137,6 +157,15 @@ let imagensJSON = {
       descricao: "Tema: Pets",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day03_k0gu87.png",
+      titulo: "Dia 3 - Tema: Pets",
+      descricao: "Tema: Pets",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day03_k0gu87.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295749/galeria/eulidraws/3_pets_lfxquw.png",
@@ -198,6 +227,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298442/galeria/tago/Day04_j6w6i8.png",
       titulo: "Dia 4 - Tema: Policial",
       descricao: "Tema: Policial",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day04_lu2ovw.png",
+      titulo: "Dia 4 - Tema: Policial",
+      descricao: "Tema: Policial",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day04_lu2ovw.png",
     },
     {
       data: "EuliDraws",
@@ -263,6 +301,15 @@ let imagensJSON = {
       descricao: "Tema: Outono",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day05_c5xlsl.png",
+      titulo: "Dia 5 - Tema: Outono",
+      descricao: "Tema: Outono",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day05_c5xlsl.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295754/galeria/eulidraws/5_Outono_uyguwn.png",
@@ -324,6 +371,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298442/galeria/tago/Day06_stm4dk.png",
       titulo: "Dia 6 - Tema: Anjo",
       descricao: "Tema: Anjo",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day06_inibwd.png",
+      titulo: "Dia 6 - Tema: Anjo",
+      descricao: "Tema: Anjo",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day06_inibwd.png",
     },
     {
       data: "EuliDraws",
@@ -389,6 +445,15 @@ let imagensJSON = {
       descricao: "Tema: Game",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day7_zi7ynk.png",
+      titulo: "Dia 7 - Tema: Game",
+      descricao: "Tema: Game",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day7_zi7ynk.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295746/galeria/eulidraws/7_Game_rcxbg6.jpg",
@@ -450,6 +515,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298441/galeria/tago/Day08_peh9qv.png",
       titulo: "Dia 8 - Tema: Doces",
       descricao: "Tema: Doces",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day8_cgxkz2.png",
+      titulo: "Dia 8 - Tema: Doces",
+      descricao: "Tema: Doces",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day8_cgxkz2.png",
     },
     {
       data: "EuliDraws",
@@ -515,6 +589,15 @@ let imagensJSON = {
       descricao: "Tema: Praia",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day9_fztzul.png",
+      titulo: "Dia 9 - Tema: Praia",
+      descricao: "Tema: Praia",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day9_fztzul.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295748/galeria/eulidraws/9_praia_g2plsx.jpg",
@@ -576,6 +659,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298441/galeria/tago/Day10_hz3lfy.png",
       titulo: "Dia 10 - Tema: Café",
       descricao: "Tema: Café",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day10_sggmhd.png",
+      titulo: "Dia 10 - Tema: Café",
+      descricao: "Tema: Café",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day10_sggmhd.png",
     },
     {
       data: "EuliDraws",
@@ -641,6 +733,15 @@ let imagensJSON = {
       descricao: "Tema: Samurai",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day11_fqh5qw.png",
+      titulo: "Dia 11 - Tema: Samurai",
+      descricao: "Tema: Samurai",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day11_fqh5qw.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295759/galeria/eulidraws/11-samurai_owoiwe",
@@ -702,6 +803,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298440/galeria/tago/Day12_f3gqnf.png",
       titulo: "Dia 12 - Tema: Demônio",
       descricao: "Tema: Demônio",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day12_bqy2tz.png",
+      titulo: "Dia 12 - Tema: Demônio",
+      descricao: "Tema: Demônio",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day12_bqy2tz.png",
     },
     {
       data: "EuliDraws",
@@ -767,6 +877,15 @@ let imagensJSON = {
       descricao: "Tema: Apocalipse",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
+      titulo: "Dia 13 - Tema: Apocalipse",
+      descricao: "Tema: Apocalipse",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295742/galeria/eulidraws/13_apocalispe_eyneqh.png",
@@ -828,6 +947,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298440/galeria/tago/Day14_zkciji.png",
       titulo: "Dia 14 - Tema: Final Fantasy",
       descricao: "Tema: Final Fantasy",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
+      titulo: "Dia 14 - Tema: Final Fantasy",
+      descricao: "Tema: Final Fantasy",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
     },
     {
       data: "EuliDraws",
@@ -893,6 +1021,15 @@ let imagensJSON = {
       descricao: "Tema: Dungeon",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day15_zetfq0.png",
+      titulo: "Dia 15 - Tema: Dungeon",
+      descricao: "Tema: Dungeon",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day15_zetfq0.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295739/galeria/eulidraws/15_dungeon_ig1uyg.jpg",
@@ -954,6 +1091,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298440/galeria/tago/Day16_qltvvq.png",
       titulo: "Dia 16 - Tema: Mecha",
       descricao: "Tema: Mecha",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day16_xgm6hd.png",
+      titulo: "Dia 16 - Tema: Mecha",
+      descricao: "Tema: Mecha",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day16_xgm6hd.png",
     },
     {
       data: "EuliDraws",
@@ -1019,6 +1165,15 @@ let imagensJSON = {
       descricao: "Tema: Séries",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/day17_xjltq2.png",
+      titulo: "Dia 17 - Tema: Séries",
+      descricao: "Tema: Séries",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/day17_xjltq2.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295745/galeria/eulidraws/17_serie_svcxzn.png",
@@ -1080,6 +1235,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298439/galeria/tago/Day18_nebkw6.png",
       titulo: "Dia 18 - Tema: Sci-fi",
       descricao: "Tema: Sci-fi",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day18_v0zlo7.png",
+      titulo: "Dia 18 - Tema: Sci-fi",
+      descricao: "Tema: Sci-fi",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day18_v0zlo7.png",
     },
     {
       data: "EuliDraws",
@@ -1145,6 +1309,15 @@ let imagensJSON = {
       descricao: "Tema: Evolução",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day19_e3e3um.png",
+      titulo: "Dia 19 - Tema: Evolução",
+      descricao: "Tema: Evolução",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day19_e3e3um.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295696/galeria/eulidraws/19_evolucao_iz04wr.jpg",
@@ -1206,6 +1379,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298439/galeria/tago/Day20_pacgtp.png",
       titulo: "Dia 20 - Tema: Quimera",
       descricao: "Tema: Quimera",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588295712/galeria/eulidraws/20_quimera_cf0y79.jpg",
+      titulo: "Dia 20 - Tema: Quimera",
+      descricao: "Tema: Quimera",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588295712/galeria/eulidraws/20_quimera_cf0y79.jpg",
     },
     {
       data: "EuliDraws",
@@ -1271,6 +1453,15 @@ let imagensJSON = {
       descricao: "Tema: Pesadelo",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day21_qps2l4.png",
+      titulo: "Dia 21 - Tema: Pesadelo",
+      descricao: "Tema: Pesadelo",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day21_qps2l4.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295694/galeria/eulidraws/21_pesadelo_up5xzr.jpg",
@@ -1332,6 +1523,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298439/galeria/tago/Day22_baztjq.png",
       titulo: "Dia 22 - Tema: Golem",
       descricao: "Tema: Golem",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day22_fqimcs.png",
+      titulo: "Dia 22 - Tema: Golem",
+      descricao: "Tema: Golem",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day22_fqimcs.png",
     },
     {
       data: "EuliDraws",
@@ -1397,6 +1597,15 @@ let imagensJSON = {
       descricao: "Tema: Halloween",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day23_y35yae.png",
+      titulo: "Dia 23 - Tema: Halloween",
+      descricao: "Tema: Halloween",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day23_y35yae.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295696/galeria/eulidraws/23_halloween_fni2ap.jpg",
@@ -1458,6 +1667,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298439/galeria/tago/Day24_hxnemp.png",
       titulo: "Dia 24 - Tema: Vampiro",
       descricao: "Tema: Vampiro",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day24_z40avu.png",
+      titulo: "Dia 24 - Tema: Vampiro",
+      descricao: "Tema: Vampiro",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day24_z40avu.png",
     },
     {
       data: "EuliDraws",
@@ -1523,6 +1741,15 @@ let imagensJSON = {
       descricao: "Tema: Esportes",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day25_hdn9k3.png",
+      titulo: "Dia 25 - Tema: Esportes",
+      descricao: "Tema: Esportes",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day25_hdn9k3.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295653/galeria/eulidraws/25_esporte_zkzs4r.jpg",
@@ -1584,6 +1811,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298438/galeria/tago/Day26_zewrxt.png",
       titulo: "Dia 26 - Tema: Leveling Up",
       descricao: "Tema: Leveling Up",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day26_uryok5.png",
+      titulo: "Dia 26 - Tema: Leveling Up",
+      descricao: "Tema: Leveling Up",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day26_uryok5.png",
     },
     {
       data: "EuliDraws",
@@ -1649,6 +1885,15 @@ let imagensJSON = {
       descricao: "Tema: Dragão",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day27_wzie1e.png",
+      titulo: "Dia 27 - Tema: Dragão",
+      descricao: "Tema: Dragão",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day27_wzie1e.pngg",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295707/galeria/eulidraws/27_dragao_jf20zm.png",
@@ -1710,6 +1955,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298438/galeria/tago/Day28_a3u0np.png",
       titulo: "Dia 28 - Tema: Mangá",
       descricao: "Tema: Mangá",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day28_bsueig.png",
+      titulo: "Dia 28 - Tema: Mangá",
+      descricao: "Tema: Mangá",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day28_bsueig.png",
     },
     {
       data: "EuliDraws",
@@ -1775,6 +2029,15 @@ let imagensJSON = {
       descricao: "Tema: Autoretrato | Avatar",
     },
     {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day29_hgr4yl.png",
+      titulo: "Dia 29 - Tema: Autoretrato | Avatar",
+      descricao: "Tema: Autoretrato | Avatar",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day29_hgr4yl.png",
+    },
+    {
       data: "EuliDraws",
       href:
         "https://res.cloudinary.com/stevasc/image/upload/v1588295665/galeria/eulidraws/29_autoretardo_aq3x51.png",
@@ -1836,6 +2099,15 @@ let imagensJSON = {
         "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588298437/galeria/tago/Day30_yxjg4u.png",
       titulo: "Dia 30 - Tema: DBR Games",
       descricao: "Tema: DBR Games",
+    },
+    {
+      data: "Nuts",
+      href:
+        "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day30_s1xoqe.png",
+      titulo: "Dia 30 - Tema: DBR Games",
+      descricao: "Tema: DBR Games",
+      url:
+        "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day30_s1xoqe.png",
     },
     {
       data: "EuliDraws",
