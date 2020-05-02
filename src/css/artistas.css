@@ -253,7 +253,8 @@ label:active:after {
 #gauss.ativo,
 #euli.ativo,
 #majorir.ativo,
-#ninja.ativo {
+#ninja.ativo,
+#nuts.ativo {
   display: inherit;
 }
 #tago,
@@ -262,7 +263,8 @@ label:active:after {
 #gauss,
 #euli,
 #majorir,
-#ninja {
+#ninja,
+#nuts {
   display: none;
 }
 #footer {
