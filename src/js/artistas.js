@@ -47,11 +47,11 @@ function galleryByArtist() {
       } else {
         ninja.classList.remove("ativo");
       }
-      if (index === 4) {
+      /* if (index === 4) {
         nuts.classList.add("ativo");
       } else {
         nuts.classList.remove("ativo");
-      }
+      } */
       if (index === 5) {
         gauss.classList.add("ativo");
       } else {

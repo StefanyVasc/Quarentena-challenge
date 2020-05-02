@@ -248,11 +248,19 @@ label:active:after {
 }
 
 #tago.ativo,
-#reimonkey.ativo {
+#reimonkey.ativo,
+#jennyh.ativo,
+#gauss.ativo,
+#euli.ativo,
+#majorir.ativo {
   display: inherit;
 }
 #tago,
-#reimonkey {
+#reimonkey,
+#jennyh,
+#gauss,
+#euli,
+#majorir {
   display: none;
 }
 #footer {
