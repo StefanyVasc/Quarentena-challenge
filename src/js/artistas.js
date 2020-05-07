@@ -1,18 +1,26 @@
-const tago = document.getElementById("tago");
-const reimonkey = document.getElementById("reimonkey");
-const jennyh = document.getElementById("jennyh");
-const ninja = document.getElementById("ninja");
-const gauss = document.getElementById("gauss");
-const majorir = document.getElementById("majorir");
-const euli = document.getElementById("euli");
-
-console.log(tago.classList);
+const btnArtist = document.querySelectorAll(`.artistas-info`);
+const galeriaIndividualTago = document.querySelector(`.tago`);
 
 function galleryByArtist() {
   const btnArtist = document.querySelectorAll(`.artistas-info`);
   const artistasGalery = document.querySelectorAll(`.artista-gallery`);
 
-  console.log(artistasGalery);
+  const galeriaIndividualReimonkey = document.querySelector(`.reimonkey`);
+  const galeriaIndividualJennyh = document.querySelector(`.jennyh`);
+  const galeriaIndividualGauss = document.querySelector(`.gauss`);
+  const galeriaIndividualEuli = document.querySelector(`.euli`);
+  const galeriaIndividualMajorir = document.querySelector(`.majorir`);
+  const galeriaIndividualNuts = document.querySelector(`.nuts`);
+  const galeriaIndividualNinja = document.querySelector(`.ninja`);
+
+  const euli = artesJSON.artistas[0].EuliDraws;
+  const gauss = artesJSON.artistas[1].gauss2;
+  const jennyh = artesJSON.artistas[2].JennyhTwT;
+  const majorir = artesJSON.artistas[3].Majorir;
+  const ninja = artesJSON.artistas[4].ninja029;
+  const nuts = artesJSON.artistas[5].nuts_arts;
+  const reimonkey = artesJSON.artistas[6].reimonkey;
+  const tago = artesJSON.artistas[7].T4G0;
 
   function btnClicked(index) {
     btnArtist.forEach((artista) => {
@@ -25,47 +33,230 @@ function galleryByArtist() {
     artista.addEventListener("click", () => {
       const btnPessoa = artista.children[1].innerText;
 
-      btnClicked(index);
-      console.log(index);
       if (index === 0) {
-        tago.classList.add("ativo");
+        tago.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualTago.classList.add("ativo");
+          itemImagem.setAttribute("id", "tago");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualTago.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        tago.classList.remove("ativo");
+        galeriaIndividualTago.classList.remove("ativo");
       }
       if (index === 1) {
-        reimonkey.classList.add("ativo");
+        reimonkey.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualReimonkey.classList.add("ativo");
+          itemImagem.setAttribute("id", "reimonkey");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualReimonkey.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        reimonkey.classList.remove("ativo");
+        galeriaIndividualReimonkey.classList.remove("ativo");
       }
       if (index === 2) {
-        jennyh.classList.add("ativo");
+        jennyh.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualJennyh.classList.add("ativo");
+          itemImagem.setAttribute("id", "jennyh");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualJennyh.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        jennyh.classList.remove("ativo");
+        galeriaIndividualJennyh.classList.remove("ativo");
       }
+
       if (index === 3) {
-        ninja.classList.add("ativo");
+        ninja.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualNinja.classList.add("ativo");
+          itemImagem.setAttribute("id", "ninja");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualNinja.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        ninja.classList.remove("ativo");
+        galeriaIndividualNinja.classList.remove("ativo");
       }
       if (index === 4) {
-        nuts.classList.add("ativo");
+        nuts.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualNuts.classList.add("ativo");
+          itemImagem.setAttribute("id", "nuts");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualNuts.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        nuts.classList.remove("ativo");
+        galeriaIndividualNuts.classList.remove("ativo");
       }
       if (index === 5) {
-        gauss.classList.add("ativo");
+        gauss.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualGauss.classList.add("ativo");
+          itemImagem.setAttribute("id", "gauss");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualGauss.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        gauss.classList.remove("ativo");
+        galeriaIndividualGauss.classList.remove("ativo");
       }
       if (index === 6) {
-        majorir.classList.add("ativo");
+        majorir.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualMajorir.classList.add("ativo");
+          itemImagem.setAttribute("id", "majorir");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualMajorir.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        majorir.classList.remove("ativo");
+        galeriaIndividualMajorir.classList.remove("ativo");
       }
       if (index === 7) {
-        euli.classList.add("ativo");
+        euli.forEach((arte, index) => {
+          const itemImagem = document.createElement(`div`);
+          itemImagem.className = `item-galeria`;
+          itemImagem.className = `gallery`;
+          itemImagem.classList.add("ativo");
+          galeriaIndividualEuli.classList.add("ativo");
+          itemImagem.setAttribute("id", "euli");
+
+          const ancora = document.createElement(`a`);
+          ancora.data = arte.descricao;
+          ancora.href = arte.href;
+          ancora.lightbox = arte.lightbox;
+          ancora.hasAttribute("href", ancora.href);
+          ancora.setAttribute("data-lightbox", ancora.lightbox);
+          ancora.setAttribute("data-title", ancora.data);
+
+          const img = document.createElement(`img`);
+          img.src = arte.url;
+          img.alt = arte.descricao;
+          img.title = arte.titulo;
+          galeriaIndividualEuli.appendChild(itemImagem);
+          itemImagem.appendChild(ancora);
+          ancora.appendChild(img);
+        });
       } else {
-        euli.classList.remove("ativo");
+        galeriaIndividualEuli.classList.remove("ativo");
       }
     });
   });
@@ -87,5 +278,3 @@ function MenuMobileLink() {
   });
 }
 MenuMobileLink();
-
-/* if() */

@@ -3,6 +3,7 @@ let artesJSON = {
     {
       EuliDraws: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295756/galeria/eulidraws/1_Favela_kjav5q.png",
           url:
@@ -11,6 +12,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295754/galeria/eulidraws/2_assassino_njs8hf.png",
           url:
@@ -19,6 +21,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295749/galeria/eulidraws/3_pets_lfxquw.png",
           url:
@@ -27,6 +30,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295749/galeria/eulidraws/4_policial_pzzzgl.png",
           url:
@@ -35,6 +39,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295754/galeria/eulidraws/5_Outono_uyguwn.png",
           url:
@@ -43,6 +48,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295749/galeria/eulidraws/6_anjo_r2nsbo.png",
           url:
@@ -51,6 +57,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295746/galeria/eulidraws/7_Game_rcxbg6.jpg",
           url:
@@ -59,6 +66,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295745/galeria/eulidraws/8_doce_ppnolg.png",
           url:
@@ -67,6 +75,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295748/galeria/eulidraws/9_praia_g2plsx.jpg",
           url:
@@ -75,6 +84,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295745/galeria/eulidraws/10-cafe_gpgyi8",
           url:
@@ -83,6 +93,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295759/galeria/eulidraws/11-samurai_owoiwe",
           url:
@@ -91,6 +102,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295746/galeria/eulidraws/12_demonio_phwfuy.jpg",
           url:
@@ -99,6 +111,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295742/galeria/eulidraws/13_apocalispe_eyneqh.png",
           url:
@@ -107,6 +120,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295740/galeria/eulidraws/14_finalfantasy_h6kgzm.jpg",
           url:
@@ -115,6 +129,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295739/galeria/eulidraws/15_dungeon_ig1uyg.jpg",
           url:
@@ -123,6 +138,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295730/galeria/eulidraws/16_mecha_s4z7qu.png",
           url:
@@ -131,6 +147,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295745/galeria/eulidraws/17_serie_svcxzn.png",
           url:
@@ -139,6 +156,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295731/galeria/eulidraws/18_scifi_fkkrwl.png",
           url:
@@ -147,6 +165,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295696/galeria/eulidraws/19_evolucao_iz04wr.jpg",
           url:
@@ -155,6 +174,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295712/galeria/eulidraws/20_quimera_cf0y79.jpg",
           url:
@@ -163,6 +183,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295694/galeria/eulidraws/21_pesadelo_up5xzr.jpg",
           url:
@@ -171,6 +192,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295739/galeria/eulidraws/22_golem_l92yec.jpg",
           url:
@@ -179,6 +201,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295696/galeria/eulidraws/23_halloween_fni2ap.jpg",
           url:
@@ -187,6 +210,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295657/galeria/eulidraws/24_vampiro_nqylzr.jpg",
           url:
@@ -195,6 +219,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295653/galeria/eulidraws/25_esporte_zkzs4r.jpg",
           url:
@@ -203,6 +228,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295667/galeria/eulidraws/26_levelingup_fyiyim.jpg",
           url:
@@ -211,6 +237,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295707/galeria/eulidraws/27_dragao_jf20zm.png",
           url:
@@ -219,6 +246,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295701/galeria/eulidraws/28_manga_riwe27.jpg",
           url:
@@ -227,6 +255,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295665/galeria/eulidraws/29_autoretardo_aq3x51.png",
           url:
@@ -235,6 +264,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295675/galeria/eulidraws/30_dbrgames_t22j2y.png",
           url:
@@ -247,6 +277,7 @@ let artesJSON = {
     {
       gauss2: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295548/galeria/gauss/gauss_day_1_aihtkj.png",
           url:
@@ -255,6 +286,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295548/galeria/gauss/gauss_day_2_efxxxb.png",
           url:
@@ -263,6 +295,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295547/galeria/gauss/gauss_day_3_ohfwp1.png",
           url:
@@ -271,6 +304,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295545/galeria/gauss/gauss_day_4_j7pqqg.png",
           url:
@@ -279,6 +313,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295547/galeria/gauss/gauss_day_5_qx4bdy.png",
           url:
@@ -287,6 +322,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295548/galeria/gauss/gauss_day_6_ekwlm1.png",
           url:
@@ -295,6 +331,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295538/galeria/gauss/gauss_day_7_mvcxoz.png",
           url:
@@ -303,6 +340,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295543/galeria/gauss/gauss_day_8_l9znj7.png",
           url:
@@ -311,6 +349,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295544/galeria/gauss/gauss_day_9_qbn0kh.png",
           url:
@@ -319,6 +358,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295545/galeria/gauss/gauss_day_10_z63xbb.png",
           url:
@@ -327,6 +367,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295542/galeria/gauss/gauss_day_11_jxtslb.png",
           url:
@@ -335,6 +376,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295541/galeria/gauss/gauss_day_12_dshidi.png",
           url:
@@ -343,6 +385,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295543/galeria/gauss/gauss_day_13_hf2zma.png",
           url:
@@ -351,6 +394,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295537/galeria/gauss/gauss_day_14_ckpenz.png",
           url:
@@ -359,6 +403,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295542/galeria/gauss/gauss_day_15_se9y2u.png",
           url:
@@ -367,6 +412,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295541/galeria/gauss/gauss_day_16_ibshd0.png",
           url:
@@ -375,6 +421,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295541/galeria/gauss/gauss_day_17_p2jeo3.png",
           url:
@@ -383,6 +430,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295540/galeria/gauss/gauss_day_18_mvn5bj.png",
           url:
@@ -391,6 +439,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295540/galeria/gauss/gauss_day_19_ovruf3.png",
           url:
@@ -399,6 +448,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295539/galeria/gauss/gauss_day_20_pbjd8t.png",
           url:
@@ -407,6 +457,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295539/galeria/gauss/gauss_day_21_hzuxh0.png",
           url:
@@ -415,6 +466,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295539/galeria/gauss/gauss_day_22_i0qesh.png",
           url:
@@ -423,6 +475,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295541/galeria/gauss/gauss_day_23_eqyedt.png",
           url:
@@ -431,6 +484,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295538/galeria/gauss/gauss_day_24_if66e7.png",
           url:
@@ -439,6 +493,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295539/galeria/gauss/gauss_day_25_xviiln.png",
           url:
@@ -447,6 +502,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295537/galeria/gauss/gauss_day_26_sxt20i.png",
           url:
@@ -455,6 +511,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295537/galeria/gauss/gauss_day_27_tsy7hz.png",
           url:
@@ -463,6 +520,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295539/galeria/gauss/gauss_day_28_vp7vdw.png",
           url:
@@ -471,6 +529,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295534/galeria/gauss/gauss_day_29_ejjxbb.png",
           url:
@@ -479,6 +538,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588295534/galeria/gauss/gauss_day_30_deejp7.png",
           url:
@@ -491,6 +551,7 @@ let artesJSON = {
     {
       JennyhTwT: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293534/galeria/jennyhtwt/dia1_e9ewig.png",
           url:
@@ -499,6 +560,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293533/galeria/jennyhtwt/dia2_ntg9y3.png",
           url:
@@ -507,6 +569,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293533/galeria/jennyhtwt/dia3_vs9zit.png",
           url:
@@ -515,6 +578,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293533/galeria/jennyhtwt/dia4_hzkqyr.png",
           url:
@@ -523,6 +587,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293532/galeria/jennyhtwt/dia5_wbyyxs.png",
           url:
@@ -531,6 +596,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293533/galeria/jennyhtwt/dia6_ufgmoz.png",
           url:
@@ -539,6 +605,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293533/galeria/jennyhtwt/dia7_hhyawf.png",
           url:
@@ -547,6 +614,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293532/galeria/jennyhtwt/dia8_wb7xjr.png",
           url:
@@ -555,6 +623,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293532/galeria/jennyhtwt/dia9_hmohpo.png",
           url:
@@ -563,6 +632,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293532/galeria/jennyhtwt/dia10_mfuxkz.png",
           url:
@@ -571,6 +641,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293532/galeria/jennyhtwt/dia11_barrno.png",
           url:
@@ -579,6 +650,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia12_gr8w8z.png",
           url:
@@ -587,6 +659,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia13_ftk7wr.png",
           url:
@@ -595,6 +668,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia14_amdto0.png",
           url:
@@ -603,6 +677,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia15_n9lico.png",
           url:
@@ -611,6 +686,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia16_wdnhom.png",
           url:
@@ -619,6 +695,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293531/galeria/jennyhtwt/dia17_zgx18b.png",
           url:
@@ -627,6 +704,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293530/galeria/jennyhtwt/dia18_d60v5k.png",
           url:
@@ -635,6 +713,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293530/galeria/jennyhtwt/dia19_npzsbp.gif",
           url:
@@ -643,6 +722,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia20_asmrao.png",
           url:
@@ -651,6 +731,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia21_hvgsef.png",
           url:
@@ -659,6 +740,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia22_iwzefa.png",
           url:
@@ -667,6 +749,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia23_rse3hl.png",
           url:
@@ -675,6 +758,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia24_wndn3y.png",
           url:
@@ -683,6 +767,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293528/galeria/jennyhtwt/dia25_rc9b5v.png",
           url:
@@ -691,6 +776,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293528/galeria/jennyhtwt/dia26_uxrbnl.png",
           url:
@@ -699,6 +785,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293528/galeria/jennyhtwt/dia27_lhvqgy.png",
           url:
@@ -707,6 +794,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293529/galeria/jennyhtwt/dia28_ghpjs5.png",
           url:
@@ -715,6 +803,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293528/galeria/jennyhtwt/dia29_xx4qpw.png",
           url:
@@ -723,6 +812,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588293527/galeria/jennyhtwt/dia30_v1ig9x.png",
           url:
@@ -735,6 +825,7 @@ let artesJSON = {
     {
       Majorir: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301724/galeria/majorir/Majorir01_v9pclm.png",
           url:
@@ -743,6 +834,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301724/galeria/majorir/Majorir02_vqvvhl.png",
           url:
@@ -751,6 +843,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir03_y13jsk.png",
           url:
@@ -759,6 +852,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir04_ywlwzf.png",
           url:
@@ -767,6 +861,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir05_jpiksx.png",
           url:
@@ -775,6 +870,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir06_oss6aq.png",
           url:
@@ -783,6 +879,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir07_gavidx.png",
           url:
@@ -791,6 +888,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir08_i71w5m.png",
           url:
@@ -799,6 +897,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301723/galeria/majorir/Majorir09_eprail.png",
           url:
@@ -807,6 +906,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir10_mwnkoa.png",
           url:
@@ -815,6 +915,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir11_sfoi5y.png",
           url:
@@ -823,6 +924,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir12_usj0qn.png",
           url:
@@ -831,6 +933,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir13_plzpok.png",
           url:
@@ -839,6 +942,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir14_mhwvss.png",
           url:
@@ -847,6 +951,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir15_tgw47g.png",
           url:
@@ -855,6 +960,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir16_mum5gw.png",
           url:
@@ -863,6 +969,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir17_ewwqwk.png",
           url:
@@ -871,6 +978,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir18_uhsdwe.png",
           url:
@@ -879,6 +987,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301722/galeria/majorir/Majorir19_bbxcks.gif",
           url:
@@ -887,6 +996,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir20_l6aqaf.png",
           url:
@@ -895,6 +1005,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301721/galeria/majorir/Majorir21_vlogmc.png",
           url:
@@ -903,6 +1014,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir22_ute5vm.png",
           url:
@@ -911,6 +1023,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir23_yqnhug.png",
           url:
@@ -919,6 +1032,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir24_whjjwc.png",
           url:
@@ -927,6 +1041,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir25_rfyumo.png",
           url:
@@ -935,6 +1050,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir26_twjm4v.png",
           url:
@@ -943,6 +1059,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir27_ifxql0.png",
           url:
@@ -951,6 +1068,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir28_jfrneo.png",
           url:
@@ -959,6 +1077,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir29_g7uea9.png",
           url:
@@ -967,6 +1086,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588301720/galeria/majorir/Majorir30_bzpyie.png",
           url:
@@ -979,6 +1099,7 @@ let artesJSON = {
     {
       ninja029: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304037/galeria/ninja029/Dia1_cbjwll.png",
           url:
@@ -987,6 +1108,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304037/galeria/ninja029/Dia2_pvneqa.png",
           url:
@@ -995,6 +1117,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304037/galeria/ninja029/Dia3_xaeax5.png",
           url:
@@ -1003,6 +1126,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia4_j1y0on.png",
           url:
@@ -1011,6 +1135,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia5_umgizy.png",
           url:
@@ -1019,6 +1144,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia6_ljt2eh.png",
           url:
@@ -1027,6 +1153,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia7_cpldpf.png",
           url:
@@ -1035,6 +1162,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia8_nvbzvq.png",
           url:
@@ -1043,6 +1171,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia9_a0gv0t.png",
           url:
@@ -1051,6 +1180,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia10_zbgtv8.png",
           url:
@@ -1059,6 +1189,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia11_gnpwrx.png",
           url:
@@ -1067,6 +1198,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia12_y8yzdv.png",
           url:
@@ -1075,6 +1207,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia13_gl22qi.png",
           url:
@@ -1083,6 +1216,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304036/galeria/ninja029/Dia14_k5fapz.png",
           url:
@@ -1091,6 +1225,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia15_sgr8x4.png",
           url:
@@ -1099,6 +1234,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia16_a9wbij.png",
           url:
@@ -1107,6 +1243,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia17_hvxd3u.png",
           url:
@@ -1115,6 +1252,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia18_x8q4ug.png",
           url:
@@ -1123,6 +1261,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia19_wlsasp.png",
           url:
@@ -1131,6 +1270,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia20_mztepg.png",
           url:
@@ -1139,6 +1279,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia21_f4ujjo.png",
           url:
@@ -1147,6 +1288,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia22_dzzdvi.png",
           url:
@@ -1155,6 +1297,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia23_bshkhp.png",
           url:
@@ -1163,6 +1306,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia24_q4goqd.png",
           url:
@@ -1171,6 +1315,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia25_epscsg.png",
           url:
@@ -1179,6 +1324,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia26_eojzvv.png",
           url:
@@ -1187,6 +1333,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304034/galeria/ninja029/Dia27_fgrjmh.png",
           url:
@@ -1195,6 +1342,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia28_qcjizj.png",
           url:
@@ -1203,6 +1351,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304035/galeria/ninja029/Dia29_mefgcr.png",
           url:
@@ -1211,6 +1360,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588304034/galeria/ninja029/Dia30_npk4ky.png",
           url:
@@ -1223,182 +1373,272 @@ let artesJSON = {
     {
       nuts_arts: [
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day01_u6wp3u.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day01_u6wp3u.png",
           titulo: "dia 1",
           descricao: "Tema: Favela",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day02_bzsump.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day02_bzsump.png",
           titulo: "dia 2",
           descricao: "Tema: Assassino",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day03_k0gu87.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day03_k0gu87.png",
           titulo: "dia 3",
           descricao: "Tema: Pets",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day04_lu2ovw.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day04_lu2ovw.png",
           titulo: "dia 4",
           descricao: "Tema: Policial",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/Day05_c5xlsl.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/Day05_c5xlsl.png",
           titulo: "dia 5",
           descricao: "Tema: Outono",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day06_inibwd.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day06_inibwd.png",
           titulo: "dia 6",
           descricao: "Tema: Anjo",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day7_zi7ynk.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day7_zi7ynk.png",
           titulo: "dia 7",
           descricao: "Tema: Game",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day8_cgxkz2.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day8_cgxkz2.png",
           titulo: "dia 8",
           descricao: "Tema: Doces",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day9_fztzul.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day9_fztzul.png",
           titulo: "dia 9",
           descricao: "Tema: Praia",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day10_sggmhd.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day10_sggmhd.png",
           titulo: "dia 10",
           descricao: "Tema: Café",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day11_fqh5qw.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day11_fqh5qw.png",
           titulo: "dia 11",
           descricao: "Tema: Samurai",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384626/galeria/nuts%20arts/Day12_bqy2tz.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384626/galeria/nuts%20arts/Day12_bqy2tz.png",
           titulo: "dia 12",
           descricao: "Tema: Demônio",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day13_wgxedc.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day13_wgxedc.png",
           titulo: "dia 13",
           descricao: "Tema: Apocalipse",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day14_kgczzn.png",
           titulo: "dia 14",
           descricao: "Tema: Final Fantasy",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day15_zetfq0.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day15_zetfq0.png",
           titulo: "dia 15",
           descricao: "Tema: Dungeon",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day16_xgm6hd.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day16_xgm6hd.png",
           titulo: "dia 16",
           descricao: "Tema: Mecha",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384627/galeria/nuts%20arts/day17_xjltq2.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384627/galeria/nuts%20arts/day17_xjltq2.png",
           titulo: "dia 17",
           descricao: "Tema: Séries",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day18_v0zlo7.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day18_v0zlo7.png",
           titulo: "dia 18",
           descricao: "Tema: Sci-fi",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day19_e3e3um.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day19_e3e3um.png",
           titulo: "dia 19",
           descricao: "Tema: Evolução",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day20_wow9hp.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day20_wow9hp.png",
           titulo: "dia 20",
           descricao: "Tema: Quimera",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day21_qps2l4.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day21_qps2l4.png",
           titulo: "dia 21",
           descricao: "Tema: Pesadelo",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day22_fqimcs.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day22_fqimcs.png",
           titulo: "dia 22",
           descricao: "Tema: Golem",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day23_y35yae.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day23_y35yae.png",
           titulo: "dia 23",
           descricao: "Tema: Halloween",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day24_z40avu.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day24_z40avu.png",
           titulo: "dia 24",
           descricao: "Tema: Vampiro",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day25_hdn9k3.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day25_hdn9k3.png",
           titulo: "dia 25",
           descricao: "Tema: Esportes",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day26_uryok5.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day26_uryok5.png",
           titulo: "dia 26",
           descricao: "Tema: Leveling Up",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day27_wzie1e.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day27_wzie1e.png",
           titulo: "dia 27",
           descricao: "Tema: Dragão",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384625/galeria/nuts%20arts/Day28_bsueig.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384625/galeria/nuts%20arts/Day28_bsueig.png",
           titulo: "dia 28",
           descricao: "Tema: Mangá",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384624/galeria/nuts%20arts/Day29_hgr4yl.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384624/galeria/nuts%20arts/Day29_hgr4yl.png",
           titulo: "dia 29",
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
-          href: "",
-          url: "",
+          lightbox: "mygallery",
+          href:
+            "https://res.cloudinary.com/stevasc/image/upload/v1588384623/galeria/nuts%20arts/Day30_s1xoqe.png",
+          url:
+            "https://res.cloudinary.com/stevasc/image/upload/c_scale,w_188/v1588384623/galeria/nuts%20arts/Day30_s1xoqe.png",
           titulo: "dia 30",
           descricao: "Tema: DBR Games",
         },
@@ -1407,6 +1647,7 @@ let artesJSON = {
     {
       reimonkey: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/1_favela_ibrevl.png",
           url:
@@ -1415,6 +1656,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/2_assassino_oaresg.png",
           url:
@@ -1423,6 +1665,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/3_pets_odgws0.png",
           url:
@@ -1431,6 +1674,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/4_policial_fw1zkx.png",
           url:
@@ -1439,6 +1683,7 @@ let artesJSON = {
           descricao: "Tema: Policial",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/5_outono_qyiyry.png",
           url:
@@ -1447,6 +1692,7 @@ let artesJSON = {
           descricao: "Tema: Outono",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298542/galeria/reimonkey/6_anjo_kmmhwa.png",
           url:
@@ -1455,6 +1701,7 @@ let artesJSON = {
           descricao: "Tema: Anjo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298543/galeria/reimonkey/7_game_yycbhi.png",
           url:
@@ -1463,6 +1710,7 @@ let artesJSON = {
           descricao: "Tema: Game",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298542/galeria/reimonkey/8_doces_alr43s.png",
           url:
@@ -1471,6 +1719,7 @@ let artesJSON = {
           descricao: "Tema: Doces",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298542/galeria/reimonkey/9_praia_rzdw6v.png",
           url:
@@ -1479,6 +1728,7 @@ let artesJSON = {
           descricao: "Tema: Praia",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298541/galeria/reimonkey/10_caf%C3%A9_fb3ezn.png",
           url:
@@ -1487,6 +1737,7 @@ let artesJSON = {
           descricao: "Tema: Café",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298541/galeria/reimonkey/11_samurai_jjozgv.png",
           url:
@@ -1495,6 +1746,7 @@ let artesJSON = {
           descricao: "Tema: Samurai",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298538/galeria/reimonkey/12_demoin_djycv4.png",
           url:
@@ -1503,6 +1755,7 @@ let artesJSON = {
           descricao: "Tema: Demônio",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298541/galeria/reimonkey/13_apocalipse_jeqc9k.png",
           url:
@@ -1511,6 +1764,7 @@ let artesJSON = {
           descricao: "Tema: Apocalipse",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298540/galeria/reimonkey/14_fantasia_final_od9whz.png",
           url:
@@ -1519,6 +1773,7 @@ let artesJSON = {
           descricao: "Tema: Final Fantasy",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298538/galeria/reimonkey/15_dungeon_eyndga.png",
           url:
@@ -1527,6 +1782,7 @@ let artesJSON = {
           descricao: "Tema: Dungeon",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298538/galeria/reimonkey/16_mecha_ahkaxy.png",
           url:
@@ -1535,6 +1791,7 @@ let artesJSON = {
           descricao: "Tema: Mecha",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298538/galeria/reimonkey/17_series_ctwisb.png",
           url:
@@ -1543,6 +1800,7 @@ let artesJSON = {
           descricao: "Tema: Séries",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298537/galeria/reimonkey/18_sci_fi_tbw5rz.png",
           url:
@@ -1551,6 +1809,7 @@ let artesJSON = {
           descricao: "Tema: Sci-fi",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298537/galeria/reimonkey/19_evolution_xhicwt.png",
           url:
@@ -1559,6 +1818,7 @@ let artesJSON = {
           descricao: "Tema: Evolução",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298537/galeria/reimonkey/20_quimera_uapb52.png",
           url:
@@ -1567,6 +1827,7 @@ let artesJSON = {
           descricao: "Tema: Quimera",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298537/galeria/reimonkey/21_pesadelo_gokmh2.png",
           url:
@@ -1575,6 +1836,7 @@ let artesJSON = {
           descricao: "Tema: Pesadelo",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298537/galeria/reimonkey/22_golem_ufnvlf.png",
           url:
@@ -1583,6 +1845,7 @@ let artesJSON = {
           descricao: "Tema: Golem",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/23_halloween_xgx8rf.png",
           url:
@@ -1591,6 +1854,7 @@ let artesJSON = {
           descricao: "Tema: Halloween",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/24_vampire_fythwy.png",
           url:
@@ -1599,6 +1863,7 @@ let artesJSON = {
           descricao: "Tema: Vampiro",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/25_esporte_ayq6pd.png",
           url:
@@ -1607,6 +1872,7 @@ let artesJSON = {
           descricao: "Tema: Esportes",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/26_levelingup_ebdrbv.png",
           url:
@@ -1615,6 +1881,7 @@ let artesJSON = {
           descricao: "Tema: Leveling Up",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/27_drag%C3%A3o_a1izub.png",
           url:
@@ -1623,6 +1890,7 @@ let artesJSON = {
           descricao: "Tema: Dragão",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/28_mang%C3%A1_cwtwhp.png",
           url:
@@ -1631,6 +1899,7 @@ let artesJSON = {
           descricao: "Tema: Mangá",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298535/galeria/reimonkey/29_autoretrato_zjblx5.png",
           url:
@@ -1639,6 +1908,7 @@ let artesJSON = {
           descricao: "Tema: Autoretrato | Avatar",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298536/galeria/reimonkey/30_dbr_games_yfutnb.png",
           url:
@@ -1651,6 +1921,7 @@ let artesJSON = {
     {
       T4G0: [
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298443/galeria/tago/Day01_iyag4c.png",
           url:
@@ -1659,6 +1930,7 @@ let artesJSON = {
           descricao: "Tema: Favela",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298443/galeria/tago/Day02_nebxrc.png",
           url:
@@ -1667,6 +1939,7 @@ let artesJSON = {
           descricao: "Tema: Assassino",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298442/galeria/tago/Day03_ianqwk.png",
           url:
@@ -1675,6 +1948,7 @@ let artesJSON = {
           descricao: "Tema: Pets",
         },
         {
+          lightbox: "mygallery",
           href:
             "https://res.cloudinary.com/stevasc/image/upload/v1588298442/galeria/tago/Day04_j6w6i8.png",
           url:
