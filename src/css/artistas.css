@@ -172,7 +172,12 @@ p.information {
   justify-content: center;
   align-items: center;
 }
-
+.information::after {
+  content: "⤵";
+  font-size: 1.5rem;
+  margin-left: 10px;
+  color: #fb5;
+}
 .artistas {
   display: flex;
   flex-direction: row;
