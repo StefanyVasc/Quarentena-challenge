@@ -122,6 +122,10 @@ label:active:after {
   align-items: center;
 }
 
+p.information {
+  padding-top: 150px;
+}
+
 .space {
   padding: 70px 0 40px 0;
 }
@@ -162,7 +166,7 @@ label:active:after {
 }
 .container-intro {
   max-width: 994px;
-  padding-top: 100px;
+  padding-top: 80px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -363,6 +367,7 @@ label:active:after {
     margin-right: 40px;
     margin-left: 40px;
     max-width: 100%;
+    padding-top: 50px;
   }
 
   #artistas {
@@ -386,6 +391,7 @@ label:active:after {
     align-self: center;
     margin-right: 60px;
     margin-left: 60px;
+    padding-top: 40px;
   }
 
   .container-intro h1 {
@@ -434,6 +440,7 @@ label:active:after {
   header {
     font-size: 1.1rem;
   }
+
   .menu-links a li {
     letter-spacing: 0.1rem;
   }
@@ -496,6 +503,10 @@ label:active:after {
     font-size: 1rem;
   }
 
+  .artistas {
+    margin-top: 0;
+  }
+
   .container-footer::after {
     content: "";
     display: inline-block;
@@ -528,14 +539,21 @@ label:active:after {
     cursor: pointer;
   }
 }
+@media screen and (max-width: 538px) {
+  .container-intro {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .artistas .artistas-info {
+    width: 90px;
+    font-size: 0.7rem;
+  }
+}
 
 @media screen and (max-width: 500px) {
-  .container-intro h1 {
-    font-size: 1rem;
-  }
-  .container-intro h3 {
-    font-size: 0.8rem;
-    line-height: 1.1rem;
+  #footer {
+    margin-top: 30px;
+    padding-top: 60px;
   }
   #footer h3 {
     font-size: 0.7rem;
@@ -584,10 +602,16 @@ label:active:after {
     padding-top: 150px;
   }
 }
+@media screen and (max-width: 438px) {
+  .container-intro .information {
+    font-size: 0.7rem;
+  }
+}
 
 @media screen and (max-width: 383px) {
   .container-intro {
     margin: 10px 40px 40px 40px;
+    padding-top: 0;
   }
 
   #footer {
