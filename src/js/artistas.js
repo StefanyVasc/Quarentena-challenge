@@ -1,9 +1,5 @@
-const btnArtist = document.querySelectorAll(`.artistas-info`);
-const galeriaIndividualTago = document.querySelector(`.tago`);
-
 function galleryByArtist() {
   const btnArtist = document.querySelectorAll(`.artistas-info`);
-  const artistasGalery = document.querySelectorAll(`.artista-gallery`);
 
   const galeriaIndividualReimonkey = document.querySelector(`.reimonkey`);
   const galeriaIndividualJennyh = document.querySelector(`.jennyh`);
@@ -12,6 +8,7 @@ function galleryByArtist() {
   const galeriaIndividualMajorir = document.querySelector(`.majorir`);
   const galeriaIndividualNuts = document.querySelector(`.nuts`);
   const galeriaIndividualNinja = document.querySelector(`.ninja`);
+  const galeriaIndividualTago = document.querySelector(`.tago`);
 
   const euli = artesJSON.artistas[0].EuliDraws;
   const gauss = artesJSON.artistas[1].gauss2;
@@ -22,19 +19,10 @@ function galleryByArtist() {
   const reimonkey = artesJSON.artistas[6].reimonkey;
   const tago = artesJSON.artistas[7].T4G0;
 
-  function btnClicked(index) {
-    btnArtist.forEach((artista) => {
-      artista.classList.remove("clicado");
-    });
-    btnArtist[index].classList.add("clicado");
-  }
-
   btnArtist.forEach((artista, index) => {
     artista.addEventListener("click", () => {
-      const btnPessoa = artista.children[1].innerText;
-
       if (index === 0) {
-        tago.forEach((arte, index) => {
+        tago.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -62,7 +50,7 @@ function galleryByArtist() {
         galeriaIndividualTago.classList.remove("ativo");
       }
       if (index === 1) {
-        reimonkey.forEach((arte, index) => {
+        reimonkey.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -90,7 +78,7 @@ function galleryByArtist() {
         galeriaIndividualReimonkey.classList.remove("ativo");
       }
       if (index === 2) {
-        jennyh.forEach((arte, index) => {
+        jennyh.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -119,7 +107,7 @@ function galleryByArtist() {
       }
 
       if (index === 3) {
-        ninja.forEach((arte, index) => {
+        ninja.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -147,7 +135,7 @@ function galleryByArtist() {
         galeriaIndividualNinja.classList.remove("ativo");
       }
       if (index === 4) {
-        nuts.forEach((arte, index) => {
+        nuts.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -175,7 +163,7 @@ function galleryByArtist() {
         galeriaIndividualNuts.classList.remove("ativo");
       }
       if (index === 5) {
-        gauss.forEach((arte, index) => {
+        gauss.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -203,7 +191,7 @@ function galleryByArtist() {
         galeriaIndividualGauss.classList.remove("ativo");
       }
       if (index === 6) {
-        majorir.forEach((arte, index) => {
+        majorir.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
@@ -231,7 +219,7 @@ function galleryByArtist() {
         galeriaIndividualMajorir.classList.remove("ativo");
       }
       if (index === 7) {
-        euli.forEach((arte, index) => {
+        euli.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
           itemImagem.className = `item-galeria`;
           itemImagem.className = `gallery`;
