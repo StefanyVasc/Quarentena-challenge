@@ -19,8 +19,17 @@ function galleryByArtist() {
   const reimonkey = artesJSON.artistas[6].reimonkey;
   const tago = artesJSON.artistas[7].T4G0;
 
+  function btnClicked(index) {
+    btnArtist.forEach((artista) => {
+      artista.classList.remove("clicado");
+    });
+    btnArtist[index].classList.add("clicado");
+  }
+
   btnArtist.forEach((artista, index) => {
     artista.addEventListener("click", () => {
+      btnClicked(index);
+
       if (index === 0) {
         tago.forEach((arte) => {
           const itemImagem = document.createElement(`div`);
@@ -28,6 +37,7 @@ function galleryByArtist() {
           itemImagem.className = `gallery`;
           itemImagem.classList.add("ativo");
           galeriaIndividualTago.classList.add("ativo");
+
           itemImagem.setAttribute("id", "tago");
 
           const ancora = document.createElement(`a`);
@@ -247,6 +257,7 @@ function galleryByArtist() {
         galeriaIndividualEuli.classList.remove("ativo");
       }
     });
+    artista.classList.remove("clicado");
   });
 }
 
